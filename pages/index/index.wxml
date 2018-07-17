@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+  <button type="primary" lang="zh_CN" bindtap="onJump">跳转页面</button>
+  <view wx:for="{{Listinfo}}" wx:for-item="itemName">
+   {{itemName.Name}}
+  </view>
+</view>
