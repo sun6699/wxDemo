@@ -1,21 +1,22 @@
 /**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.aui-bar-tab {
+    position: fixed;
+    top: auto;
+    bottom: 0;
+    table-layout: fixed;
+    background-color: #aaf2f7;
+    color: #757575;
+    line-height: 1.5;
+    font-size: 0.8rem;
 }
-
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.aui-bar-tab .aui-bar-tab-item {
+    display: table-cell;
+    position: relative;
+    width: 1%;
+    height: 2.5rem;
+    text-align: center;
+    vertical-align: middle;
 }
-
-.userinfo-nickname {
-  color: #aaa;
-}
-
-.usermotto {
-  margin-top: 200px;
+.aui-bar-tab .aui-active {
+    color: #039be5;
 }

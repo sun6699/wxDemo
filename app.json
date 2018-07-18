@@ -3,12 +3,16 @@
     "pages/login/login",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/map/map"
+    "pages/map/map",
+    "pages/user/index",
+    "pages/account/ruzhang",
+    "pages/account/chuzhang",
+    "pages/account/xiaozhang"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "小程序",
+    "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
   }
 }

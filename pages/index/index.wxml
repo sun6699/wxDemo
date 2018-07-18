@@ -1,7 +1,19 @@
 <!--index.wxml-->
-<view class="container">
-  <button type="primary" lang="zh_CN" bindtap="onJump">跳转页面</button>
-  <view wx:for="{{Listinfo}}" wx:for-item="itemName">
-   {{itemName.Name}}
-  </view>
+<view class="aui-bar-tab">
+  <view class="aui-bar-tab-item aui-active" tapmode>
+        <i class="aui-iconfont aui-icon-home"></i>
+        <view class="aui-bar-tab-label">出账</view>
+    </view>
+    <view class="aui-bar-tab-item" tapmode>
+        <i class="aui-iconfont aui-icon-star"></i>
+        <view class="aui-bar-tab-label">入账</view>
+    </view>
+    <view class="aui-bar-tab-item" tapmode>
+        <i class="aui-iconfont aui-icon-cart"></i>
+        <div class="aui-bar-tab-label">销账</div>
+    </view>
+    <view class="aui-bar-tab-item" tapmode>
+        <i class="aui-iconfont aui-icon-my"></i>
+        <view class="aui-bar-tab-label">我的</view>
+    </view>
 </view>
